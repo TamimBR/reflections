@@ -5,3 +5,13 @@ git init
 git status
 git add
 git reset
+git diff 				// to compare the current working directory 								with the commit in staging area.
+git diff --stage		// diff between stage and repository
+
+git branch branch_name
+git checkout -b new_branch_name			//create branch then checkout.
+git log --graph --oneline master branch
+
+git merge Branch2  //merge branch2 into current checked out
+git config --global core.autocrlf 		//because unix and windows differs on line spacing
+git show commit_id 	//difference between commit and parant
