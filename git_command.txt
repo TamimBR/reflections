@@ -15,3 +15,7 @@ git log --graph --oneline master branch
 git merge Branch2  //merge branch2 into current checked out
 git config --global core.autocrlf 		//because unix and windows differs on line spacing
 git show commit_id 	//difference between commit and parant
+
+git remote add origin_name    //create a remote
+git remote -v       // show existing remote
+git remote push -u origin master
